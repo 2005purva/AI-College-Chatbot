@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! What would you like to know?",
+        "Hello! I am your AI College Chatbot."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available?",
+        "Which courses do you offer?",
+        "Tell me about courses",
+        "What programs are available?",
+        "Which programs do you have?"
+      ],
+      "responses": [
+        "We offer B.Tech, BCA and MCA courses.",
+        "Our college offers various undergraduate and postgraduate programs."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I get admission?",
+        "What is the admission process?",
+        "How do I apply?",
+        "Tell me about admission",
+        "What are the admission requirements?"
+      ],
+      "responses": [
+        "You can apply through the college admission process. Please keep your required documents ready.",
+        "For admission, fill out the application form and submit the required documents."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee?",
+        "How much is the college fee?",
+        "Tell me about fees",
+        "What are the course fees?",
+        "How much does the course cost?"
+      ],
+      "responses": [
+        "The course fee depends on the program. Please contact the college office for the latest fee details."
+      ]
+    },
+    {
+      "tag": "timing",
+      "patterns": [
+        "What are the college timings?",
+        "When does college open?",
+        "What is the college time?",
+        "When does college close?"
+      ],
+      "responses": [
+        "College timings are generally from 9 AM to 4 PM."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "Tell me about placement",
+        "Does the college provide placement?",
+        "What is the placement process?",
+        "Are placement opportunities available?"
+      ],
+      "responses": [
+        "Yes, the college provides placement opportunities through its placement cell."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "You're welcome. Feel free to ask another question."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "I have to go"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!"
+      ]
+    }
+  ]
+}
